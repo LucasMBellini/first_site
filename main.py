@@ -27,4 +27,4 @@ def usuarios(nome_usuario):
 if __name__ == "__main__":
     app.run(debug=True)
 
-# deploy do site servidor oracle
+# deploy do site servidor oracle;
