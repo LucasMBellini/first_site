@@ -10,18 +10,23 @@ app = Flask(__name__)
 # criar 1ª página
 @app.route("/")  # atribuir uma nova funcionalidade
 def homepage():
-    return render_template("homepage.html")
-
+    return render_template("home.html")
 
 @app.route("/contatos")
-def contacts():
-    return render_template("contacts.html")
+def contatos():
+    return render_template("contato.html")
 
+@app.route("/lazer")
+def lazer():
+    return render_template("lazer.html")
 
-@app.route("/usuarios/<nome_usuario>")  # página dinâmica de usuários
-def usuarios(nome_usuario):
-    return render_template("usuarios.html", nome_usuario=nome_usuario)
+@app.route("/reservas")
+def reservas():
+    return render_template("reservas.html")
 
+@app.route("/sobre")
+def sobre():
+    return render_template("sobre.html")
 
 # colocar o site no ar
 if __name__ == "__main__":
