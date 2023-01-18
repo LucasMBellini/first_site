@@ -28,6 +28,10 @@ def reservas():
 def sobre():
     return render_template("sobre.html")
 
+@app.route("/acomodacoes")
+def acomodacoes():
+    return render_template("acomodacoes.html")
+
 # colocar o site no ar
 if __name__ == "__main__":
     app.run(debug=True)

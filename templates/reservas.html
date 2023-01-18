@@ -3,8 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Perfil do usuário</title>
+    <link rel="stylesheet" href="../static/style.css"/>
 </head>
 <body>
+    <header>
+        <a href="/"><img class="logo" src="../static/Logo_Serras_Monte_Verde.png"/></a>
+        <nav class="menu"> 
+            <a class="menu-item" href="/">Home</a>
+            <a class="menu-item" href="/acomodacoes">Acomodações</a>
+            <a class="menu-item" href="/lazer">Lazer</a>
+            <a class="menu-item" href="/sobre">Sobre</a>
+            <a class="menu-item" href="/reservas">Reservas</a>
+            <a href="/contatos"><button class="botao">Contato</button></a>
+        </nav>
+    </header>
     <p>Meu nome é {{nome_usuario}}</p>
 </body>
 </html>
