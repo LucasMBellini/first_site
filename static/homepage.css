@@ -2,8 +2,7 @@
     margin:0;
     padding:0px;
     box-sizing: border-box;
-    text-decoration: none;
-}
+    text-decoration: none;}
 
 header{
     display: flex;
@@ -12,29 +11,25 @@ header{
     flex-direction: row;
     padding: 24px;
     background-image: url(./Bosque.jpeg);
-    background-position: 0px 380px;
-}
+    background-position: 0px 380px;}
 
 .logo{
    height: 110px;
-   display: flexbox;
-}
+   display: flexbox;}
 
 .menu{
     display: flex;
     gap: 45px;
-    align-items: center;
-}
+    align-items: center;}
 
 .menu-item{
     color: antiquewhite;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
-    font-size: 25px;
-}
+    font-size: 25px;}
+
 .menu-item:hover{
-    color: sandybrown;
-}
+    color: sandybrown;}
 
 .botao{
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -46,14 +41,22 @@ header{
     color: black;
     border: none;
     box-shadow: 2px 2px 2px 2px black;
-    border-radius: 20px;
-}
+    border-radius: 20px;}
+
 .botao:hover{
-    color: whitesmoke;
+    color: whitesmoke;}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 50px;
 }
 
 .galeria{
-    margin: 100px auto;
+    margin: 20px auto;
     width: 980px;
     height: 720px;
     position: relative;
@@ -68,24 +71,26 @@ header{
     animation-duration: 20s;
     animation-iteration-count: infinite;
 }
+
 @keyframes animacao{
     25%{
         opacity: 1;
         transform: scale(1.1,1.1);
     50%{
-        opacity: 0;
-    }
-    }
-}
+        opacity: 0;}}}
 
-.foto:nth-child(1){
-}
+.foto:nth-child(1){}
 .foto:nth-child(2){
-    animation-delay: 5s;
-}
+    animation-delay: 5s;}
 .foto:nth-child(3){
-    animation-delay: 10s;
-}
+    animation-delay: 10s;}
 .foto:nth-child(4){
-    animation-delay: 5s;
+    animation-delay: 15s;}
+
+footer{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
 }
